@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {                        
+    background-color: #4CAF50;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+header nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Profile picture container */
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Profile picture styling */
+.profile-pic {
+    width: 100px;                /* Increased size for profile picture */
+    height: 100px;               /* Keep height and width equal for a circle */
+    border-radius: 50%;          /* Make it circular */
+    border: 2px solid white;     /* Optional white border around the image */
+    object-fit: cover;           /* Ensures the image fills the circle */
+}
+
+.hero {
+    padding: 50px;
+    text-align: center;
+    background-color: #e0f7fa;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
